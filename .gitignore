@@ -59,3 +59,4 @@ spec/factories/users.rb
 spec/features/
 spec/mailers/
 spec/models/user_spec.rb
+/.secret
