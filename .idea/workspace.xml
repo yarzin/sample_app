@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42d350be-a0bc-4dda-98e8-a17a31723e31" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20161024185504_create_users.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20161024200721_add_index_to_users_email.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20161026170105_add_password_digest_to_users.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sample_app.iml" afterPath="$PROJECT_DIR$/.idea/sample_app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <ignored path="sample_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -800,7 +792,7 @@
       <workItem from="1477231017881" duration="12785000" />
       <workItem from="1477331846940" duration="7205000" />
       <workItem from="1477423132484" duration="588000" />
-      <workItem from="1477494733888" duration="2797000" />
+      <workItem from="1477494733888" duration="2814000" />
     </task>
     <task id="LOCAL-00001" summary="fix git ignore">
       <created>1475850824805</created>
@@ -935,7 +927,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477340333240</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="before_save { self.email = email.downcase }&#10;  validates :name, presence: true, length: { maximum: 50 }&#10;  VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i&#10;  validates :email, presence:   true,&#10;                    format:     { with: VALID_EMAIL_REGEX },&#10;                    uniqueness: { case_sensitive: false }&#10;  has_secure_password&#10;  validates :password, length: { minimum: 6 }">
+      <created>1477503303610</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1477503303610</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -971,7 +970,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46363000" />
+    <option name="totallyTimeSpent" value="46380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-3" width="1280" height="1027" extended-state="6" />
@@ -1022,7 +1021,8 @@
     <MESSAGE value="fix route" />
     <MESSAGE value="fix rspec test" />
     <MESSAGE value="add spec test for user and validation for user name and email" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="before_save { self.email = email.downcase }&#10;  validates :name, presence: true, length: { maximum: 50 }&#10;  VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i&#10;  validates :email, presence:   true,&#10;                    format:     { with: VALID_EMAIL_REGEX },&#10;                    uniqueness: { case_sensitive: false }&#10;  has_secure_password&#10;  validates :password, length: { minimum: 6 }" />
+    <option name="LAST_COMMIT_MESSAGE" value="before_save { self.email = email.downcase }&#10;  validates :name, presence: true, length: { maximum: 50 }&#10;  VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i&#10;  validates :email, presence:   true,&#10;                    format:     { with: VALID_EMAIL_REGEX },&#10;                    uniqueness: { case_sensitive: false }&#10;  has_secure_password&#10;  validates :password, length: { minimum: 6 }" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
