@@ -792,7 +792,7 @@
       <workItem from="1477231017881" duration="12785000" />
       <workItem from="1477331846940" duration="7205000" />
       <workItem from="1477423132484" duration="588000" />
-      <workItem from="1477494733888" duration="2814000" />
+      <workItem from="1477494733888" duration="2970000" />
     </task>
     <task id="LOCAL-00001" summary="fix git ignore">
       <created>1475850824805</created>
@@ -934,7 +934,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477503303610</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Make a basic User model (including secure passwords)">
+      <created>1477503322873</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1477503322873</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -970,7 +977,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46380000" />
+    <option name="totallyTimeSpent" value="46536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-3" width="1280" height="1027" extended-state="6" />
@@ -979,12 +986,12 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3452188" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35658914" sideWeight="0.49721116" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2993197" sideWeight="0.47487843" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30498865" sideWeight="0.14829822" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40929705" sideWeight="0.2649919" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30498865" sideWeight="0.8517018" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30498865" sideWeight="0.8517018" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40929705" sideWeight="0.73987037" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40929705" sideWeight="0.7350081" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1022,7 +1029,8 @@
     <MESSAGE value="fix rspec test" />
     <MESSAGE value="add spec test for user and validation for user name and email" />
     <MESSAGE value="before_save { self.email = email.downcase }&#10;  validates :name, presence: true, length: { maximum: 50 }&#10;  VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i&#10;  validates :email, presence:   true,&#10;                    format:     { with: VALID_EMAIL_REGEX },&#10;                    uniqueness: { case_sensitive: false }&#10;  has_secure_password&#10;  validates :password, length: { minimum: 6 }" />
-    <option name="LAST_COMMIT_MESSAGE" value="before_save { self.email = email.downcase }&#10;  validates :name, presence: true, length: { maximum: 50 }&#10;  VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i&#10;  validates :email, presence:   true,&#10;                    format:     { with: VALID_EMAIL_REGEX },&#10;                    uniqueness: { case_sensitive: false }&#10;  has_secure_password&#10;  validates :password, length: { minimum: 6 }" />
+    <MESSAGE value="Make a basic User model (including secure passwords)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make a basic User model (including secure passwords)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
